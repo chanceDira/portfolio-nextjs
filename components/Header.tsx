@@ -13,27 +13,35 @@ function Header() {
       }
 
   return (
-    <div className=' flex min-h-screen flex-row w-9/12 justify-center items-center'>
+    <div className=' flex min-h-screen flex-col-reverse md:flex-row  w-11/12 md:w-9/12 md:pt-0 justify-center items-center'>
         
       
-        <div className=' text-[#886451] w-1/2 text-xl pr-6 '>
+        <div className=' text-[#886451] md:w-1/2  md:text-xl md:pr-6 '>
             <div className=' '>
 
-        <div className=' text-4xl w-full mb-4 font-bold'>Hi, I'm <span className=' text-gray-600'>Chance Desire IRADUKUNDA.</span></div> 
+        <div className=' text-2xl md:text-4xl w-full mb-4 font-bold'>Hi, I'm <span className=' text-gray-600'>Chance Desire IRADUKUNDA.</span></div> 
         A <span className=' text-gray-600'>Full-Stack Web Developer</span> with a vast experience in <span className='text-gray-600'>front-end</span> and <span className='text-gray-600'>back-end</span> development. I have a <span className='text-gray-600'>bachelor's degree</span> in <span className='text-gray-600'>Software engineering</span>. My focus is on developing a most perfect product in <span className='text-gray-600'>the worldwide IT industry</span>.
             </div>
             <div className='flex flex-row mt-4'>
                 <div>
+                    <a href='https://github.com/chanceDira' target='_blank'>
                 <Icon icon="mdi:github" color="#886451" width="24" height="24" />
+                    </a>
                 </div>
                 <div>
+                    <a href='https://www.linkedin.com/in/chance-desire-iradukunda-094405205/' target='_blank'>
                 <Icon icon="mdi:linkedin" color="#886451" width="24" height="24" />
+                    </a>
                 </div>
                 <div>
+                    <a href='https://twitter.com/_Mahirwe97_' target='_blank'>
                 <Icon icon="mdi:twitter" color="#886451" width="24" height="24" />
+                    </a>
                 </div>
                 <div>
+                    <a href='https://www.instagram.com/iradukunda0101/' target='_blank'>
                 <Icon icon="uil:instagram-alt" color="#886451" width="24" height="24" />
+                    </a>
                 </div>
             </div>
             <div className='mt-4'>

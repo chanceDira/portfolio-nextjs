@@ -16,13 +16,13 @@ function Contact() {
   }
 
   return (
-    <div className='w-full flex min-h-screen flex-col justify-center items-center '>
-    <div className=' text-4xl font-bold'>Get in <span className=' text-gray-600'>touch</span></div>
-    <div className='flex flex-col  w-full justify-center items-center my-20 px-24'>
+    <div className='w-full flex md:min-h-screen flex-col justify-center items-center '>
+    <div className=' text-2xl md:text-4xl font-bold'>Get in <span className=' text-gray-600'>touch</span></div>
+    <div className='flex flex-col  w-full justify-center items-center my-4 md:my-20 md:px-24'>
         
         <form onSubmit={(e) => handleSubmit(e)}>
           <div className='flex flex-col'>
-            <div className='flex flex-row gap-4'>
+            <div className='flex flex-col md:flex-row gap-4'>
               <div className='flex flex-col'>
                 <label>Email</label>
                 <input 

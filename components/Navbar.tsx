@@ -13,12 +13,12 @@ function Navbar() {
 
 
   return (
-    <div className=' flex flex-row justify-between items-center p-10  w-full absolute'>
+    <div className=' flex flex-row justify-between items-center p-4 md:p-10  w-full absolute'>
         <div className='flex flex-row justify-center items-center cursor-pointer animate-pulse '>
             <div>
             <Icon icon="tabler:message-circle-2" color="#886451" width="48" height="48" hFlip={true} />
             </div>
-            <div className=' mx-2 text-xl italic'>
+            <div className=' mx-2 md:text-xl italic'>
             <Mailto email="foo@bar.baz" subject="Hire Chance" body="Hello Chance">
             Hire me
   </Mailto>
@@ -26,7 +26,7 @@ function Navbar() {
             </div>
         </div>
         <div>
-          <div className=' border border-[#886451] px-4 py-2 font-bold text-xl italic cursor-pointer'>
+          <div className=' border border-[#886451] px-4 py-2 font-bold md:text-xl italic cursor-pointer'>
             <a target='_blank' href='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674818616/ResumeChance_qvsl2q.pdf'>
             Resume
             </a>

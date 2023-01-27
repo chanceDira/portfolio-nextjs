@@ -17,7 +17,7 @@ export default function Layout({children}:LayoutProps) {
             <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <main className=' '>
+            <main className='flex flex-col justify-center items-center '>
             {children}
             </main>
             {/* <Footer /> */}
