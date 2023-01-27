@@ -6,6 +6,8 @@ import Header from "../components/Header";
 import Services from "../components/Services";
 import Work from "../components/Work";
 import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,6 +18,8 @@ export default function Home() {
       <About />
       <Services />
       <Work />
+      <Contact />
+      <Footer />
     </div>
   );
 }
