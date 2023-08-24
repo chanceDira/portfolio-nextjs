@@ -11,7 +11,7 @@ function About() {
       <div className="flex flex-col md:flex-row justify-center items-center">
         <div className="w-30">
           <img
-            className=" w-full h-40"
+            className=" w-30 h-40"
             src="https://res.cloudinary.com/dlzsibwl6/image/upload/v1668021997/ChanceDira3_cwdxum.png"
             // src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674816415/chanceProfile-removebg-preview_velgyl.png'
             alt="image"

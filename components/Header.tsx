@@ -52,12 +52,13 @@ function Header() {
   </Mailto>
                 </div>
             </div>
-        </div>
+        </div> 
 
         <div className='w-30'>
             <img
                 className=' w-full h-82 rounded-full '
-                src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674816415/chanceProfile-removebg-preview_velgyl.png'
+                // src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674816415/chanceProfile-removebg-preview_velgyl.png'
+                src='mine.png'
                 alt='image'
             />
         </div>
