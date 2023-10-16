@@ -11,7 +11,7 @@ function About() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center">
-      <Fade left>
+      {/* <Fade left> */}
         <div className="w-30">
           <img
             className=" w-30 h-40"
@@ -20,9 +20,9 @@ function About() {
             alt="image"
           />
         </div>
-        </Fade>
+        {/* </Fade> */}
 
-        <Fade right>
+        {/* <Fade right> */}
         <div className=" text-[#886451] md:w-2/3 mx-2 md:mx-0 text-md mt-10 md:mt-0 md:text-xl md:pl-32 text-justify ">
           <span className="text-gray-600">
             I am a Software Engineer with a love of collaborating with great
@@ -47,7 +47,7 @@ function About() {
             ether.js - Solidity - Truffle - Hardhat - Metamask - Rust
           </span>
         </div>
-        </Fade>
+        {/* </Fade> */}
       </div>
     </div>
   );

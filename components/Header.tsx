@@ -17,7 +17,7 @@ function Header() {
     <div className=' flex min-h-screen flex-col-reverse md:flex-row  w-11/12 md:w-9/12 md:pt-0 justify-center items-center'>
         
       
-        <Fade left>
+        {/* <Fade left> */}
         <div className=' text-[#886451] md:w-1/2  md:text-xl md:pr-6 '>
             <div className=' '>
 
@@ -55,9 +55,9 @@ function Header() {
                 </div>
             </div>
         </div> 
-        </Fade>
+        {/* </Fade> */}
 
-        <Fade right>
+        {/* <Fade right> */}
         <div className='w-30'>
             <img
                 className=' w-full h-82 rounded-full '
@@ -66,7 +66,7 @@ function Header() {
                 alt='image'
             />
         </div>
-        </Fade>
+        {/* </Fade> */}
        
       
         

@@ -20,7 +20,7 @@ function Contact() {
     <div className='w-full flex md:min-h-screen flex-col justify-center items-center '>
     <div className=' text-2xl md:text-4xl font-bold'>Get in <span className=' text-gray-600'>touch</span></div>
     <div className='flex flex-col  w-full justify-center items-center my-4 md:my-20 md:px-24'>
-        <Zoom>
+        {/* <Zoom> */}
         <form onSubmit={(e) => handleSubmit(e)}>
           <div className='flex flex-col'>
             <div className='flex flex-col md:flex-row gap-4'>
@@ -53,7 +53,7 @@ function Contact() {
             </button>
           </div>
         </form>
-        </Zoom>
+        {/* </Zoom> */}
 
      
       
