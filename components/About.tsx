@@ -1,14 +1,17 @@
 import { Icon } from "@iconify/react";
 import React from "react";
+import Fade from 'react-reveal/Fade';
+
 
 function About() {
   return (
     <div className=" flex min-h-screen flex-col w-11/12 md:w-9/12 justify-center items-center">
-      <div className=" text-2xl md:text-4xl font-bold mb-20">
+      <div className=" text-2xl md:text-4xl font-bold mb-20 mt-10 md:mt-2">
         About <span className=" text-gray-600">me</span>
       </div>
 
       <div className="flex flex-col md:flex-row justify-center items-center">
+      <Fade left>
         <div className="w-30">
           <img
             className=" w-30 h-40"
@@ -17,7 +20,9 @@ function About() {
             alt="image"
           />
         </div>
+        </Fade>
 
+        <Fade right>
         <div className=" text-[#886451] md:w-2/3 mx-2 md:mx-0 text-md mt-10 md:mt-0 md:text-xl md:pl-32 text-justify ">
           <span className="text-gray-600">
             I am a Software Engineer with a love of collaborating with great
@@ -42,6 +47,7 @@ function About() {
             ether.js - Solidity - Truffle - Hardhat - Metamask - Rust
           </span>
         </div>
+        </Fade>
       </div>
     </div>
   );

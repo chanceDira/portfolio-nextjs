@@ -27,7 +27,7 @@ function Navbar() {
         </div>
         <div>
           <div className=' border border-[#886451] px-4 py-2 font-bold md:text-xl italic cursor-pointer'>
-            <a target='_blank' href='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674818616/ResumeChance_qvsl2q.pdf'>
+            <a target='_blank' href='https://res.cloudinary.com/dlzsibwl6/image/upload/v1697450691/My_Resume_pecmnc.pdf'>
             Resume
             </a>
             
