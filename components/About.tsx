@@ -41,7 +41,7 @@ function About() {
           <span className=" text-sm ">
             My skills include: - ReactJs - NextJs - React Native - Tailwind -
             Bootstrap - Typescript - NodeJs - GraphQL - HTML5 & CSS3 - Stripe -
-            Socket.io - Apollo Server - Figma & UI/UX Design - MongoDB -
+            Socket.io - Apollo Server - Java/Springbot - PHP/Laravel - Figma & UI/UX Design - MongoDB -
             PostgreSQL - MySQL - API integration - REST APIs - Heroku, Netlify,
             and Firebase - Git, Github, Gitlab, Trello, and Jira - web3.js -
             ether.js - Solidity - Truffle - Hardhat - Metamask - Rust

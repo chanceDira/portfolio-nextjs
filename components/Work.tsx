@@ -8,6 +8,19 @@ function Work() {
         <div className=' text-2xl md:text-4xl font-bold'>My recent <span className=' text-gray-600'>Work</span></div>
         <div className='flex flex-wrap  w-full justify-center items-center my-4 md:my-20 md:px-24'>
             
+
+             {/* <Zoom> */}
+             <div className=' m-4'>
+            <img className=' w-80 h-48 border-2 rounded-md' src='bot.png' alt='img' />
+            <div className=' text-gray-600 font-bold'>AI Chatbot   </div>
+            <div className='underline cursor-pointer'>
+              <a href='https://dabblelab-bot.vercel.app/' target='_blank'>
+              View site
+              </a>
+            </div>
+            </div>
+            {/* </Zoom> */}
+
             {/* <Zoom> */}
             <div className=' m-4'>
             <img className=' w-80 h-48 border-2 rounded-md' src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674579921/2023-01-24_19-04_yy1j81.png' alt='img' />
@@ -35,18 +48,7 @@ function Work() {
             </div>
             {/* </Zoom> */}
 
-            {/* <Zoom> */}
-            <div className=' m-4'>
-            <img className=' w-80 h-48 border-2 rounded-md' src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674584340/2023-01-24_20-18_ttvszg.png' alt='img' />
-            <div className=' text-gray-600 font-bold'>Panel Tech   </div>
-            <div className='underline cursor-pointer'>
-              <a href='https://paneltechrwanda.com/' target='_blank'>
-              View site
-              </a>
-            </div>
-            </div>
-            {/* </Zoom> */}
-
+           
             {/* <Zoom> */}
             <div className=' m-4'>
             <img className=' w-80 h-48 border-2 rounded-md' src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674584507/2023-01-24_20-21_bfoxi5.png' alt='img' />
@@ -84,6 +86,15 @@ function Work() {
             {/* </Zoom> */}
           
           
+        </div>
+
+        <a  href='https://github.com/chanceDira' target='_blank'>
+        <div className=' underline cursor-pointer'>
+          View more
+        </div>
+        </a>
+        <div className=' text-lg font-bold'>
+          View some of my articles <a href='https://medium.com/@chancedira' target='_blank' className=' cursor-pointer text-gray-600 underline'>here</a>
         </div>
     </div>
   )

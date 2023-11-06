@@ -19,30 +19,51 @@ function Header() {
       
         {/* <Fade left> */}
         <div className=' text-[#886451] md:w-1/2  md:text-xl md:pr-6 '>
+        {/* <Fade left> */}
             <div className=' '>
 
         <div className=' text-2xl md:text-4xl w-full mb-4 font-bold'>Hi, I'm <span className=' text-gray-600'>Chance Desire IRADUKUNDA.</span></div> 
         A <span className=' text-gray-600'>Full-Stack Web Developer</span> with a vast experience in <span className='text-gray-600'>front-end</span> and <span className='text-gray-600'>back-end</span> development. I have a <span className='text-gray-600'>bachelor's degree</span> in <span className='text-gray-600'>Software engineering</span>. My focus is on developing a most perfect product in <span className='text-gray-600'>the worldwide IT industry</span>.
             </div>
-            <div className='flex flex-row mt-4'>
-                <div>
-                    <a href='https://github.com/chanceDira' target='_blank'>
+            <div className='flex flex-wrap mt-4 gap-2'>
+                <div >
+                    <a href='https://github.com/chanceDira' target='_blank' className=' flex flex-row items-center border-2 border-[#886451] rounded-full px-2 py-0.5 cursor-pointer '>
                 <Icon icon="mdi:github" color="#886451" width="24" height="24" />
+                    <span className=' text-sm'>
+                    GitHub
+                    </span>
                     </a>
                 </div>
-                <div>
-                    <a href='https://www.linkedin.com/in/chance-desire-iradukunda-094405205/' target='_blank'>
+                <div >
+                    <a href='https://www.linkedin.com/in/chance-desire-iradukunda-094405205/' target='_blank' className=' flex flex-row items-center border-2 border-[#886451] rounded-full px-2 py-0.5 cursor-pointer '>
                 <Icon icon="mdi:linkedin" color="#886451" width="24" height="24" />
+                    <span className=' text-sm'>
+                    LinkedIn
+                    </span>
+                    </a>
+                </div>
+                <div  >
+                    <a href='https://www.upwork.com/freelancers/~01c50a6d5ca39249ff' target='_blank' className=' flex flex-row items-center border-2 border-[#886451] rounded-full px-2 py-0.5 cursor-pointer '>
+                    <Icon icon="simple-icons:upwork" color="#886451" width="24" height="24" />
+                    <span className='ml-1 text-sm'>
+                    Upwork
+                    </span>
                     </a>
                 </div>
                 <div>
-                    <a href='https://twitter.com/_Mahirwe97_' target='_blank'>
+                    <a href='https://twitter.com/_Mahirwe97_' target='_blank'  className=' flex flex-row items-center border-2 border-[#886451] rounded-full px-2 py-0.5 cursor-pointer '>
                 <Icon icon="mdi:twitter" color="#886451" width="24" height="24" />
+                    <span className='ml-1 text-sm'>
+                    Twitter(X)
+                    </span>
                     </a>
                 </div>
-                <div>
-                    <a href='https://www.instagram.com/iradukunda0101/' target='_blank'>
+                <div >
+                    <a href='https://www.instagram.com/iradukunda0101/' target='_blank' className=' flex flex-row items-center border-2 border-[#886451] rounded-full px-2 py-0.5 cursor-pointer '>
                 <Icon icon="uil:instagram-alt" color="#886451" width="24" height="24" />
+                    <span className='ml-1 text-sm'>
+                    Instagram
+                    </span>
                     </a>
                 </div>
             </div>
@@ -59,6 +80,7 @@ function Header() {
 
         {/* <Fade right> */}
         <div className='w-30'>
+        {/* <Fade right> */}
             <img
                 className=' w-full h-82 rounded-full '
                 // src='https://res.cloudinary.com/dlzsibwl6/image/upload/v1674816415/chanceProfile-removebg-preview_velgyl.png'
