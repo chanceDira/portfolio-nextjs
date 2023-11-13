@@ -7,13 +7,29 @@ function Contact() {
   const [subject, setSubject] = useState('')
   const [message, setMessage] = useState('')
 
-  const handleSubmit = (e: any) => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault()
+
+
+    const response = await fetch('/api/v1/contact', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify({ message, email, subject})
+    });
+
+    console.log('response: ', response)
     setTimeout(() => {
       setEmail('')
       setSubject('')
       setMessage('')
     }, 2000)
+
+    if (!response.ok) {
+      return;
+    }
+
   }
 
   return (
@@ -27,9 +43,10 @@ function Contact() {
               <div className='flex flex-col'>
                 <label>Email</label>
                 <input 
-                  type='text' 
+                  type='email' 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
+                  required
                   className='mt-2 border-2 px-2 py-1 rounded-md outline-none focus:border-[#886451]' />
               </div>
               <div className=' flex flex-col'>
