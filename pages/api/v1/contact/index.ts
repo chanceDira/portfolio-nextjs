@@ -11,6 +11,7 @@ export default async function (req: any, res: any) {
               pass: 'isadsftfqapsonuz',
             },
           });
+          
           const emailOptions = {
             from: 'chancedesire61@gmail.com',
             to: 'chancedesire60@gmail.com',
