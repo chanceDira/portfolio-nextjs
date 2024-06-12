@@ -32,7 +32,7 @@ function Navbar() {
         <div className=" border border-[#886451] px-4 py-2 font-bold md:text-xl italic cursor-pointer">
           <a
             target="_blank"
-            href="https://res.cloudinary.com/dlzsibwl6/image/upload/v1705844106/My_Resume-Chance_bx0aox.pdf"
+            href="https://res.cloudinary.com/dlzsibwl6/image/upload/v1718222383/Web3_Developer_su7qee.pdf"
           >
             Resume
           </a>

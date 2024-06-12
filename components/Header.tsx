@@ -16,7 +16,7 @@ function Header() {
       {/* <Fade left> */}
       <div className=" text-[#886451] md:w-1/2  md:text-xl md:pr-6 ">
         {/* <Fade left> */}
-        <div className=" ">
+        <div className=" hidden ">
           <div className=" text-2xl md:text-4xl w-full mb-4 font-bold">
             Hi, I'm{" "}
             <span className=" text-gray-600">Chance Desire IRADUKUNDA.</span>
@@ -29,6 +29,18 @@ function Header() {
           <span className="text-gray-600">Software engineering</span>. My focus
           is on developing a most perfect product in{" "}
           <span className="text-gray-600">the worldwide IT industry</span>.
+        </div>
+
+        <div className=" text-gray-600">
+        <div className=" text-2xl md:text-4xl w-full mb-4 font-bold">
+            Hi, I'm{" "}
+            <span className=" text-[#886451]">Chance Desire IRADUKUNDA.</span>
+          </div>
+        Web3 Developer with 5+ years of experience in Solidity and software
+development. Skilled in building decentralized applications, smart contracts,
+and blockchain integration. Passionate about leveraging Web3 technologies
+to create innovative and secure solutions. Proven track record of delivering
+high-quality projects on time
         </div>
         <div className="flex flex-wrap mt-4 gap-2">
           <div>
