@@ -36,12 +36,18 @@ function Header() {
             Hi, I'm{" "}
             <span className=" text-[#886451]">Chance Desire IRADUKUNDA.</span>
           </div>
-        Web3 Developer with 5+ years of experience in Solidity and software
+        {/* Web3 Developer with 5+ years of experience in Solidity and software
 development. Skilled in building decentralized applications, smart contracts,
 and blockchain integration. Passionate about leveraging Web3 technologies
 to create innovative and secure solutions. Proven track record of delivering
-high-quality projects on time
-        </div>
+high-quality projects on time */}
+<div className=" font-light">
+
+I'm Chance Desire Iradukunda, a full-stack software engineer and Web3 developer passionate about building powerful, user-first digital products. From clean front-ends to secure backend / Smart contracts, I bring ideas to life, the scalable way.<br></br> Vibe Coding in the pipeline too 😎. 
+</div>
+
+
+    </div>
         <div className="flex flex-wrap mt-4 gap-2">
           <div>
             <a

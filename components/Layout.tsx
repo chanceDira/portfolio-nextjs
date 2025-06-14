@@ -12,7 +12,7 @@ export default function Layout({children}:LayoutProps) {
     return (
         <div className=' text-[#886451] relative'>
             <Head>
-            <title>Chance Desire IRADUKUNDA</title>
+            <title>Chance Desire IRADUKUNDA | Software Developer</title>
             <meta name="description" content="Hi, I'm Chance Desire IRADUKUNDA. A Full-Stack Web Developer with a vast experience in front-end and back-end development. I have a bachelor's degree in Software engineering. My focus is on developing a most perfect product in the worldwide IT industry." />
             <link rel="icon" href="/favicon.ico" />
             </Head>
